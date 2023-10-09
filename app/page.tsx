@@ -1,7 +1,7 @@
-"use client";
+
 import React from "react";
 import Image from "next/image";
-// import Button from "./components/button/button";
+import Button from "./components/button/button";
 
 export default function Home() {
   const countItem = ["+", "-"];
@@ -20,6 +20,7 @@ export default function Home() {
     trueResult = firstNumber - secondNumber;
   }
 
+
   return (
     <main className="main">
       <article className="article">
@@ -29,7 +30,7 @@ export default function Home() {
           <p>{trueItem}</p>
           <p>{secondNumber}</p>
         </div>
-        {/* <Button trueResult={trueResult} falseResult={falseResult}/> */}
+        <Button trueResult={trueResult} falseResult={falseResult}/>
       </article>
     </main>
   );

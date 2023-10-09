@@ -50,13 +50,7 @@ padding: 36px;
   margin: 30px 0;
 }
 
-.article__buttons button {
-  background-color: #001d3d;
-  border-radius: 10px;
-color:#fff;
-padding: 6px;
-width: 35%;
-}
+
 
 .article__content {
   display: flex;

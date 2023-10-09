@@ -1,0 +1,17 @@
+.article__button {
+    background-color: #001d3d;
+    border-radius: 10px;
+  color:#fff;
+  padding: 6px;
+  width: 35%;
+  }
+
+
+
+.article__button--true {
+background-color:green;
+}
+
+.article__button--false {
+    background-color:red;
+    }
